@@ -16,9 +16,9 @@ import org.junit.Test;
 
 public class ContactImplTest {
 
-    private	int contactId;
-    private String contactName;
-    private String notes;
+//    private	int contactId;
+//    private String contactName;
+//    private String notes;
 
     private Contact person1, person2, person3, person4, person5;
 
@@ -36,6 +36,7 @@ public class ContactImplTest {
     @Ignore
     @Test
     public void getIdTest() {
+        System.out.println("==== Testing the getId() method ====");
         // ContactImplTest test = new ContactImplTest();
         int getTheId = person1.getId();
         int expected = 7;
@@ -46,6 +47,7 @@ public class ContactImplTest {
     @Ignore
     @Test
     public void getNameTest() {
+        System.out.println("==== Testing the getName() method ====");
         String getTheName = person4.getName();
         String expected = "Da Vinci, Leonardo";
         assertEquals(expected, getTheName);
@@ -55,6 +57,7 @@ public class ContactImplTest {
     @Ignore
     @Test
     public void getNotesTest() {
+        System.out.println("==== Testing the getNotes() method ====");
 
     }
 
@@ -62,12 +65,17 @@ public class ContactImplTest {
     @Ignore
     @Test
     public void addNotesTest() {
+        System.out.println("==== Testing the addNotes() method ====");
 
     }
 
     // Destroy mock object
     @After
     public void cleanUp() {
-
+        person1 = null;
+        person2 = null;
+        person3 = null;
+        person4 = null;
+        person5 = null;
     }
 }
