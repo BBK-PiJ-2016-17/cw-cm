@@ -33,7 +33,6 @@ public class ContactImplTest {
     }
 
     // Test getId()
-    @Ignore
     @Test
     public void getIdTest() {
         System.out.println("==== Testing the getId() method ====");
@@ -44,7 +43,6 @@ public class ContactImplTest {
     }
 
     // Test getName()
-    @Ignore
     @Test
     public void getNameTest() {
         System.out.println("==== Testing the getName() method ====");
