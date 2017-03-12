@@ -24,7 +24,7 @@ public class ContactTest {
 
     // Create mock object
     @Before
-    public ContactImpl mockContact() {
+    public void mockContact() {
         person1 = new ContactImpl(7, "Einstein, Albert", "King of math and physics");
         person2 = new ContactImpl(17, "Galilei, Galileo", "Had to lie to stay alive");
         person3 = new ContactImpl(23, "Lovelace, Ada", "Wish more people knew about her");
