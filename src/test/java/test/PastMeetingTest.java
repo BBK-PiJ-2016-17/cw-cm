@@ -1,11 +1,11 @@
 package test;
 
-import impl.FutureMeetingImpl;
+import impl.PastMeetingImpl;
 import org.junit.Ignore;
 
 /**
  * @author Ginestra Ferraro
  */
 
-public class FutureMeetingImplTest {
+public class PastMeetingTest {
 }

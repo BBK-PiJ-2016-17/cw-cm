@@ -7,4 +7,5 @@ import spec.PastMeeting;
  */
 
 public class PastMeetingImpl implements PastMeeting {
+
 }

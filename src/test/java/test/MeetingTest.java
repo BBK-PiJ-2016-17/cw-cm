@@ -7,6 +7,6 @@ import org.junit.Ignore;
  * @author Ginestra Ferraro
  */
 
-public class MeetingImplTest {
+public class MeetingTest {
 
 }

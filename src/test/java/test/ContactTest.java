@@ -14,7 +14,7 @@ import org.junit.Test;
  * @author Ginestra Ferraro
  */
 
-public class ContactImplTest {
+public class ContactTest {
 
 //    private	int contactId;
 //    private String contactName;

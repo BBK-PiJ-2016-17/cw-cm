@@ -1,11 +1,11 @@
 package test;
 
-import impl.ContactManagerImpl;
+import impl.FutureMeetingImpl;
 import org.junit.Ignore;
 
 /**
  * @author Ginestra Ferraro
  */
 
-public class ContactManagerImplTest {
+public class FutureMeetingTest {
 }
