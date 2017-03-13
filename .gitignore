@@ -3,6 +3,13 @@
 *.txt
 *.zip
 
+# Gradle
+.gradle
+gradle
+gradlew
+gradlew.bat
+settings.gradle
+
 # IDE Files
 /.idea
 *.iml
