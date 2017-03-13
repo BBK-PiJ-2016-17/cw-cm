@@ -56,6 +56,9 @@ public class ContactTest {
     @Test
     public void getNotesTest() {
         System.out.println("==== Testing the getNotes() method ====");
+        String getTheNotes = person1.getNotes();
+        String expected = "King of math and physics";
+        assertEquals(expected, getTheNotes);
 
     }
 
