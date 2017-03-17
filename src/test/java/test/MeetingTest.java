@@ -28,7 +28,7 @@ public class MeetingTest {
     private Meeting meeting, anotherMeeting;
 
     @Before
-    public void mockMeeting() {
+    public void setUp() {
         date = Calendar.getInstance();
         contacts = new HashSet<Contact>();
 

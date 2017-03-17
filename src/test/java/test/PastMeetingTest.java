@@ -29,7 +29,7 @@ public class PastMeetingTest {
     private String notes;
 
     @Before
-    public void mockImpl() {
+    public void setUp() {
         date = Calendar.getInstance();
         contacts = new HashSet<>();
         contacts.add(new ContactImpl(1, "The Project Manager"));
