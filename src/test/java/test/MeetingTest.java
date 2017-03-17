@@ -2,11 +2,9 @@ package test;
 
 import impl.ContactImpl;
 import impl.FutureMeetingImpl;
-import impl.MeetingImpl;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import spec.Contact;
