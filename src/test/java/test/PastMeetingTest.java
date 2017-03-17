@@ -44,7 +44,6 @@ public class PastMeetingTest {
         assertEquals(expected, output);
     }
 
-    // @Test NullPointerException
     @Test(expected = NullPointerException.class)
     public void NotesNullPointerExTest() {
         new PastMeetingImpl(2, date, contacts, null);

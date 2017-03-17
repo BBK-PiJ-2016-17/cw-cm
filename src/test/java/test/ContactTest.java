@@ -16,10 +16,6 @@ import org.junit.Test;
 
 public class ContactTest {
 
-//    private	int contactId;
-//    private String contactName;
-//    private String notes;
-
     private Contact person1, person2, person3, person4, person5;
 
     // Create mock object
@@ -32,41 +28,34 @@ public class ContactTest {
         person5 = new ContactImpl(77, "Curie, Marie", "Mrs X-rays");
     }
 
-    // Test getId()
     @Test
     public void getIdTest() {
-        System.out.println("==== Testing the getId() method ====");
-        // ContactImplTest test = new ContactImplTest();
+        System.out.println("==== Testing the getId() method");
         int getTheId = person1.getId();
         int expected = 7;
         assertEquals(expected, getTheId);
     }
 
-    // Test getName()
     @Test
     public void getNameTest() {
-        System.out.println("==== Testing the getName() method ====");
+        System.out.println("==== Testing the getName() method");
         String getTheName = person4.getName();
         String expected = "Da Vinci, Leonardo";
         assertEquals(expected, getTheName);
     }
 
-    // Test getNotes()
-    @Ignore
     @Test
     public void getNotesTest() {
-        System.out.println("==== Testing the getNotes() method ====");
+        System.out.println("==== Testing the getNotes() method");
         String getTheNotes = person1.getNotes();
         String expected = "King of math and physics";
         assertEquals(expected, getTheNotes);
 
     }
 
-    // Test addNotes()
-    @Ignore
     @Test
     public void addNotesTest() {
-        System.out.println("==== Testing the addNotes() method ====");
+        System.out.println("==== Testing the addNotes() method");
 
     }
 
