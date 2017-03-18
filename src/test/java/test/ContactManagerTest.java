@@ -33,6 +33,11 @@ public class ContactManagerTest {
         lastMeetingId = 17;
     }
 
+    @Test
+    public void addFutureMeetingTest() {
+
+    }
+
     @After
     public void cleanUp() {
         contacts = null;
